@@ -1,0 +1,8 @@
+.idea
+/target/*
+*.jar
+*/.jar
+*/.avi
+*.java.orig
+*.class
+*.iml
