@@ -15,15 +15,15 @@ Feature: first test case using selenium
   @qa-automatedTest
   Scenario Outline: validate  that the search button works
     Given The <browser> is opened
-    Given I navigate to the initial page www.google.com
+    Given I navigate to the URL www.google.com
     When I put the Url amazon.com in the search field
     And I press the button Google Search
     Then The search results of amazon.com should be displayed in the results list
     Examples:
       | browser   |
       | CHROME    |
-      | IEXPLORER |
-      | FIREFOX   |
+   #   | IEXPLORER |
+   #   | FIREFOX   |
 
 
   @qa-automatedTest
