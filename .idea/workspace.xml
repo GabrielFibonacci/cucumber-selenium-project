@@ -5,15 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="897cea51-e324-4e6c-b6fc-37e08421b014" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/selenium/stepsLogic/SeleniumTools.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Selenium-cucumber-project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Selenium-cucumber-project.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/project/selenium/stepsDefinitions/FirstTestsStepsDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/selenium/stepsDefinitions/FirstTestsStepsDef.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/selenium/stepsLogic/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/selenium/stepsLogic/Driver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/seleniumTests/myFirstTest.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/seleniumTests/myFirstTest.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/project/selenium/stepsDefinitions/FirstTestsStepsDef.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/project/selenium/stepsDefinitions/FirstTestsStepsDef.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/seleniumTests/myFirstTest.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/seleniumTests/myFirstTest.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Selenium-cucumber-project-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/Selenium-cucumber-project-1.0-SNAPSHOT.jar" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -43,11 +38,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/project/selenium/stepsDefinitions/FirstTestsStepsDef.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="413">
-              <caret line="136" column="1" lean-forward="true" selection-start-line="136" selection-start-column="1" selection-end-line="136" selection-end-column="1" />
+            <state relative-caret-position="56">
+              <caret line="115" column="38" selection-start-line="115" selection-start-column="38" selection-end-line="115" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="63">
+              <caret line="75" column="19" selection-start-line="75" selection-start-column="19" selection-end-line="75" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -103,7 +107,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/project/selenium/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/FirstTestStepsDef.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/project/selenium/stepsDefinitions/FirstTestStepsDef.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/FirstTestsStepsDef.java" />
         <option value="$PROJECT_DIR$/src/main/java/Main.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
@@ -115,6 +118,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/project/selenium/stepsLogic/SeleniumTools.java" />
         <option value="$PROJECT_DIR$/src/main/resources/seleniumTests/myFirstTest.feature" />
         <option value="$PROJECT_DIR$/src/main/java/com/project/selenium/stepsDefinitions/FirstTestsStepsDef.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -189,8 +193,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -343,15 +347,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Scenario__Search_product_in_Fender - 2019.06.11 at 18h 52m 54s.xml">
-      <configuration name="Scenario: Search product in Fender" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Scenario__Search_product_in_Fender - 2019.06.11 at 19h 00m 13s.xml">
-      <configuration name="Scenario: Search product in Fender" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Scenario__Search_product_in_Fender - 2019.06.11 at 19h 04m 17s.xml">
-      <configuration name="Scenario: Search product in Fender" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
     <history-entry file="Scenario__Search_product_in_Fender - 2019.06.11 at 19h 09m 50s.xml">
       <configuration name="Scenario: Search product in Fender" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
@@ -373,12 +368,20 @@
     <history-entry file="Scenario__Search_product_in_Fender - 2019.06.11 at 19h 55m 05s.xml">
       <configuration name="Scenario: Search product in Fender" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
+    <history-entry file="Scenario__Search_product_in_Fender - 2019.06.13 at 13h 53m 40s.xml">
+      <configuration name="Scenario: Search product in Fender" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__Search_product_in_Fender - 2019.06.21 at 17h 12m 46s.xml">
+      <configuration name="Scenario: Search product in Fender" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__Search_product_in_Fender - 2019.06.21 at 17h 16m 23s.xml">
+      <configuration name="Scenario: Search product in Fender" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49918166" visible="true" weight="0.18910742" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49918166" visible="true" weight="0.19818456" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -387,7 +390,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.5008183" side_tool="true" weight="0.25718608" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.45826513" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.45826513" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.400982" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -526,13 +529,6 @@
     <entry file="file://$PROJECT_DIR$/src/test/resources/projects/it-basic/archetype.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="47" column="17" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/project/selenium/stepsDefinitions/FirstTestStepsDef.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/project/selenium/Main.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar!/org/openqa/selenium/firefox/FirefoxDriver.class">
@@ -645,10 +641,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="75" column="19" selection-start-line="75" selection-start-column="19" selection-end-line="75" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/project/selenium/stepsDefinitions/FirstTestsStepsDef.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="136" column="1" lean-forward="true" selection-start-line="136" selection-start-column="1" selection-end-line="136" selection-end-column="1" />
+        <state relative-caret-position="56">
+          <caret line="115" column="38" selection-start-line="115" selection-start-column="38" selection-end-line="115" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
