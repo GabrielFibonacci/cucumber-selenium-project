@@ -113,7 +113,7 @@ public class FirstTestsStepsDef implements En {
             assertThat("The name of the page does not correspond", tittleFender, containsString("Fender"));
         });
         When("^I press button search$", () -> {
-            WebElement buttonSearch = river.getActiveDrive().findElement(By.xpath("/html/body/div[1]/header/nav/div/div/div[2]/div[1]"));
+            WebElement buttonSearch = driver.getActiveDrive().findElement(By.xpath("/html/body/div[1]/header/nav/div/div/div[2]/div[1]"));
             Assert.assertTrue(buttonSearch.isDisplayed(), "Not displayed text field search");
             buttonSearch.click();
         });
