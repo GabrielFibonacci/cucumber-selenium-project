@@ -120,7 +120,7 @@ public class FirstTestsStepsDef implements En {
         And("^Enter something to search for \"([^\"]*)\", click$", (String arg0) -> {
             WebElement textBoxSearch = driver.getActiveDrive().findElement(By.name("q"));
             textBoxSearch.clear();
-            textBoxSearch.sendeys("Telecaster");
+            textBoxSearch.sendKeys("Telecaster");
             try {
                 Thread.sleep(5000);
             } catch (InterruptedException e) {
