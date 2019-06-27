@@ -118,7 +118,7 @@ public class FirstTestsStepsDef implements En {
             buttonSearch.click();
         });
         And("^Enter something to search for \"([^\"]*)\", click$", (String arg0) -> {
-            WebElement textBoxSearch = driver.etActiveDrive().findElement(By.name("q"));
+            WebElement textBoxSearch = driver.getActiveDrive().findElement(By.name("q"));
             textBoxSearch.clear();
             textBoxSearch.sendKeys("Telecaster");
             try {
